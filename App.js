@@ -10,7 +10,7 @@ const App = () => {
     <SafeAreaProvider>
       <GluestackUIProvider config={config}>
         <AppStack />
-        <StatusBar bg='#000' />
+        <StatusBar/>
       </GluestackUIProvider>
     </SafeAreaProvider>
   )
